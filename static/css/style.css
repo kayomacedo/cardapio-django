@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: blanchedalmond;
+    padding-top: 80px;
+
+}
+
+.first-section{
+    background-image:linear-gradient(rgba(29,29,29,0.8),rgba(29,29,29,0.8)) ,url(../assets/fundopizza.jpg);
+    height: 44vw;
+    width: 99.1vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.first-section .conteudo-principal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.first-section h1{
+    color: #FFD251;
+    font-size: 2.3vw;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+.first-section h2{
+    color: rgb(177, 177, 177);
+    font-size:1.3vw;
+    text-transform: uppercase;
+    margin-bottom: 3rem;
+
+}
+
+.first-section .btn{
+    display: flex;
+    flex-direction: row;
+
+    width: 480px;
+    align-items: center;
+    gap: 25px;
+    
+}
+
+
+.btn button{
+    width: 230px;
+    height: 60px;
+    cursor: pointer;
+    text-transform: uppercase;
+    background-color: #FFD251;
+    border-radius: 10px;
+    color: black;
+    font-weight: 700;
+    margin-top: 5rem;
+    transition: all 400ms ease-in;
+
+}
+.btn button:hover{
+    border: #FFD251 1px  solid;
+    background-color: transparent;
+    color: #FFD251;
+}
+
+
+
+.sobre-section{
+
+    width: 99.1vw;
+    background-color: #1F1E1F;
+  
+}
+.sobre-section .conteudo-principal{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 25px;
+    padding-bottom: 50px;
+}
+
+.sobre-section .text-img{
+  
+    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.sobre-section .text{
+padding: 5px;
+border: white 1px solid;
+width: 40vw;
+color: antiquewhite;
+text-align: justify;
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 100px 50px;
+height: 15vw;
+font-size: 1vw;
+border-radius: 15px;
+
+}
+
+.sobre-section .sobre-img{
+    width: 40vw;
+    border-radius: 15px;
+    border: white 1px solid;
+}
+
+
+.cardapio-section {
+   
+   
+}
+.cardapio-section .conteudo-principal{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+.cardapio-section .conteudo-principal .itens-cardapio {
+
+    display: flex;
+    flex-direction: row;
+    width: 75vw;
+
+    
+}
+.cardapio-section .conteudo-principal  .cardapio{
+    opacity: 0.5;
+
+    font-size: 25px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.cardapio-section .conteudo-principal .itens-cardapio  ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    flex-wrap: wrap; 
+}
+
+.cardapio-section .conteudo-principal .itens-cardapio  .card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    background-color: #1F1E1F;
+    border-radius: 15px;
+    padding: 8px;
+
+    h2, p{
+        color: aliceblue;
+    }
+    
+}
+
+
+.cardapio-section .conteudo-principal .itens-cardapio .card img{
+    
+        width: 250px;
+        height: 250px;
+        background-size: cover;
+        border-radius: 15px;
+}
+
+.cardapio-section .conteudo-principal .itens-cardapio button{
+    
+
+    width: 230px;
+    height: 60px;
+    cursor: pointer;
+    text-transform: uppercase;
+    background-color: #FFD251;
+    border-radius: 10px;
+    color: black;
+    font-weight: 700;
+ 
+    transition: all 400ms ease-in;  
+}
